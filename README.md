@@ -25,8 +25,8 @@ sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
 ## 我目前的分析
 1. app.js文件的编码是utf-8
 2. OS X terminal 中所使用的编码也应该是utf-8
-所以不存在两端编码不一致的问题。
-是否是ftp模块内部存在问题？我尝试google了nodejs 中文乱码，并没有获得非常对症的办法。
-也可能是新手能力不足吧。
 
-## 敬请指教
+我理解两端的编码如果一直，是不存在乱码问题的。
+所以，是否是ftp模块内部存在问题？我尝试google了nodejs 中文乱码，并没有获得非常对症的办法。
+
+## 新手能力不足，敬请指教。
