@@ -12,7 +12,7 @@
 ### 开启FTP服务
 我用的是shell命令：
 ```bash
-// ftp的根目录是系统用户的根目录~
+# ftp的根目录是系统用户的根目录~
 sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist
 ```
 ### 访问ftp的js代码
